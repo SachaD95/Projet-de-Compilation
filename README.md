@@ -19,14 +19,14 @@ Ce compilateur gère :
 
 ## 3. Limites conues
 
-    *Types : Seul le type int est supporté.
+* **Types :** Seul le type int est supporté.
 
-    *Structures : La grammaire est présente, mais l'accès aux champs n'est pas généré en assembleur.
+* **Structures :** La grammaire est présente, mais l'accès aux champs n'est pas généré en assembleur.
 
-    *Logique conditionnelle : Pas de else  et pas d'opérateurs booléens (&&, ||).
+* **Logique conditionnelle :** Pas de else  et pas d'opérateurs booléens (&&, ||).
+  
+* **Variables :** Pas de vérification sémantique (redéclaration, portée, ou type).
 
-    *Variables : Pas de vérification sémantique (redéclaration, portée, ou type).
-
-    *Return : Le return doit obligatoirement être la toute dernière instruction de la fonction.
-
-    *Fonctions : Les paramètres sont limités aux 6 premiers registres (rdi, rsi, rdx, rcx, r8, r9).
+* **Return :** Le return doit obligatoirement être la toute dernière instruction de la fonction.
+  
+* **Fonctions :** Les paramètres sont limités aux 6 premiers registres (rdi, rsi, rdx, rcx, r8, r9).
