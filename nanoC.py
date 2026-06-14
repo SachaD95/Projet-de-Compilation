@@ -636,7 +636,7 @@ def asm_programme(ast):
 
 
 if __name__ == "__main__":
-    src = open("test.c").read()
+    src = open("AsmIntegrationTest.c").read()
     t = grammaire.parse(src)
 
     print("****** Pretty-print *********")
