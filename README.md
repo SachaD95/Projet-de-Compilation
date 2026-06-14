@@ -228,6 +228,24 @@ Le compilateur ne vérifie pas :
 
 ---
 
+### Limitation 5 : return
+
+Seules les fonctions retournant un entier sont supportées.
+
+Chaque fonction doit obligatoirement se terminer par :
+
+```c
+return(expression);
+```
+
+---
+
+### Limitation 6 : fonctions sans paramètres
+
+Les fonctions doivent posséder au moins un paramètre.
+
+---
+
 ## 5. Tests effectués
 
 Tests validés :
